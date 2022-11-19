@@ -48,26 +48,9 @@ body{
   padding-right:1rem;
   display: flex;
 }
-.circle{
-  border:1px solid white;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  position:absolute;
-  margin-left:-15px; 
+.logo{
   
-
-
 }
-.blackmoon{
-  border:1px solid var(--Darkbrown);
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-  background:var(--Darkbrown);
-  position: relative;
-  opacity: 0.9;
-   }
    /* ========================Main============================ */
    .main{
     border:1px solid white;
@@ -79,7 +62,7 @@ body{
 
    }
    .spending{
-    padding:1rem;
+    padding:1rem 1rem 0 1rem;
     font-size: 2rem;
     font-weight:700 ;
     color:var(--Darkbrown);
@@ -87,11 +70,14 @@ body{
    .weeks{
     display: flex;
     gap:1rem;
-    border: 1px solid white;
     margin-left:2rem;
+   }
+   hr{
+    margin: 20px;
    }
    .mon{
     border:1px solid white;
+    border-radius: 5px;
     background:var(--Softred);
     height:7vh;
     width: 3vw;
@@ -99,35 +85,41 @@ body{
    .tue{
     border:1px solid white;
     background:var(--Softred);
+    border-radius: 5px;
     height:10vh;
     width:3vw
    } 
    .wed{
     border:1px solid white;
+    border-radius: 5px;
     background:var(--Cyan);
     height:15vh;
     width:2.5vw
    }
    .thu{
     border:1px solid white;
+    border-radius: 5px;
     background:var(--Softred);
     height:8.5vh;
     width:3vw
    }
    .fri{
     border:1px solid white;
+    border-radius: 5px;
     background:var(--Softred);
     height:7.6vh;
     width:3vw
    }
    .sat{
     border:1px solid white;
+    border-radius: 5px;
     background:var(--Softred);
     height:13vh;
     width:3vw
    }
    .sun{
     border:1px solid white;
+    border-radius: 5px;
     background:var(--Softred);
     height:9vh;
     width:3vw
@@ -171,5 +163,73 @@ body{
    .last_month{
     font-size: 1rem;
     color: var(--Mediumbrown);
-    margin-right: 20px;
+    margin-right: 10px;
+   }
+   @media(max-width: 768px ){
+    .navbar{
+      height:13vh;
+      width:100vw;
+      margin: 50px 15px 15px 15px;
+    }
+    .main{
+      width:100vw;
+      height: 55vh;
+      margin: 10px 15px 15px 15px;
+    }
+    .spending{
+      padding:20px 0 10px 10px;
+      margin:0;
+    }
+    .weeks{
+      width: 100vw;
+      gap: 1.6rem;
+      margin:10px 10px;
+    }
+    .mon{
+      width: 7vw;
+    }
+    .tue{
+      width:7vw;
+
+    }
+    .wed{width:6.5vw;
+
+    }
+    .thu{
+      width:6vw;
+    }
+    .fri{
+      width:6vw;
+    }
+    .sat{
+      width:6.5vw;
+    }
+    .sun{
+      width:6vw
+    }
+
+
+    .data{
+      padding-top:5px;
+      margin:10px;
+      gap:1.5rem;
+    }
+    hr{
+      margin: 10px;
+    }
+    .footer{
+      padding:10px;
+    }
+  .total{
+ font-size: 1rem;
+
+  }
+  .total_amount{
+    padding-top: 10px;
+  }
+  .prcnt{
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+
    }

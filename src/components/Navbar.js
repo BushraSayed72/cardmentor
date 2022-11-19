@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import logo from '../images/logo.svg';
 
 function Navbar() {
   return (
@@ -8,8 +9,7 @@ function Navbar() {
    <p className='dollar'>$921.48</p>
    </div>
    <div className='right-side'>
-    <p className='circle'></p>
-    <p className='blackmoon'></p>
+    <img  className='logo' src={logo} alt='logo'/>
    </div>
 
     </div>
