@@ -13,8 +13,8 @@ function Main() {
 <div className='fri'></div>
 <div className='sat'></div>
 <div className='sun'></div>
-
 </div>
+
 <div className='data'>
 <p className='same'>mon</p>
 <p className='same'>tue</p>
@@ -23,6 +23,7 @@ function Main() {
 <p className='same'>fri</p>
 <p className='same'>sat</p>
 <p className='same'>sun</p>
+
 </div>
 <hr/>
  <div className='footer'>
