@@ -55,7 +55,7 @@ body{
    .main{
     border:1px solid white;
     width: 35vw;
-    height:50vh;
+    height:57vh;
     margin-top: 1rem;
     background-color: var(--Verypaleorange);
     border-radius: 15px;
@@ -68,9 +68,11 @@ body{
     color:var(--Darkbrown);
    }
    .weeks{
+    margin: 2rem 10px 10px 2rem;
     display: flex;
+    flex-direction: row-reverse;
     gap:1rem;
-    margin-left:2rem;
+    transform:rotate(180deg);
    }
    hr{
     margin: 20px;
@@ -94,7 +96,7 @@ body{
     border-radius: 5px;
     background:var(--Cyan);
     height:15vh;
-    width:2.5vw
+    width:2.8vw
    }
    .thu{
     border:1px solid white;
@@ -127,11 +129,12 @@ body{
    .data{
     display: flex;
     gap: 2rem;
-    margin:3px 1rem 1rem 2rem;
+    margin:6px 1rem 1rem 2rem;
    }
    .same{
     color:var(--Mediumbrown);
     font-weight: 100;
+    margin-left:3px;
     
 
     
@@ -139,7 +142,7 @@ body{
    .footer{
     display: flex;
     justify-content: space-between;
-    margin:1rem;
+    margin:1rem 1rem 0 2rem;
 
    }
    .total{
@@ -169,12 +172,12 @@ body{
     .navbar{
       height:13vh;
       width:100vw;
-      margin: 50px 15px 15px 15px;
+      margin: 50px 15px 15px 25px;
     }
     .main{
       width:100vw;
       height: 55vh;
-      margin: 10px 15px 15px 15px;
+      margin: 10px 15px 15px 25px;
     }
     .spending{
       padding:20px 0 10px 10px;
@@ -183,7 +186,7 @@ body{
     .weeks{
       width: 100vw;
       gap: 1.6rem;
-      margin:10px 10px;
+      margin:10px 10px 10px 15px;
     }
     .mon{
       width: 7vw;
@@ -192,20 +195,20 @@ body{
       width:7vw;
 
     }
-    .wed{width:6.5vw;
+    .wed{width:6.7vw;
 
     }
     .thu{
-      width:6vw;
+      width:6.5vw;
     }
     .fri{
-      width:6vw;
+      width:6.5vw;
     }
     .sat{
       width:6.5vw;
     }
     .sun{
-      width:6vw
+      width:6.5vw
     }
 
 

@@ -18,7 +18,7 @@ function Main() {
 <div className='data'>
 <p className='same'>mon</p>
 <p className='same'>tue</p>
-<p className='same'>wes</p>
+<p className='same'>wed</p>
 <p className='same'>thu</p>
 <p className='same'>fri</p>
 <p className='same'>sat</p>
